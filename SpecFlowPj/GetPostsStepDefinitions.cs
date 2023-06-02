@@ -11,7 +11,7 @@ namespace SpecFlowPj
     public class GetPostsStepDefinitions
     {
         RestClient client;
-        RestRequest request;
+        RestRequest request = new RestRequest("posts/{postid}", Method.Get);
         RestResponse response;
 
         [Given(@"a valid API endpoint")]
@@ -24,7 +24,7 @@ namespace SpecFlowPj
         [Given(@"I have an id with value (.*)")]
         public void GivenIHaveAnIdWithValue(int p0)
         {
-            request = new RestRequest("posts/{postid}", Method.Get);
+            
             request.AddUrlSegment("postid", p0);
         }        
 
