@@ -17,7 +17,7 @@ namespace SpecFlowPj
         [Given(@"a valid API endpoint")]
         public void GivenAValidAPIEndpoint()
         {
-            client = new RestClient("http://localhost:3000");            
+            client = new RestClient("http://34.125.117.44:3000");            
         }
 
         [Given(@"I have an id with value (.*)")]
