@@ -1,0 +1,106 @@
+{
+  "uuid": "fb5bbc40f7f14303b91d445c6454ab7c",
+  "historyId": "GetbyId",
+  "fullName": "GetbyId",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-4S814UH"
+    },
+    {
+      "name": "feature",
+      "value": "GetPosts"
+    },
+    {
+      "name": "tag",
+      "value": "tag1"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    }
+  ],
+  "links": [],
+  "name": "GetbyId",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  a valid API endpoint",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685722509497,
+      "stop": 1685722509629
+    },
+    {
+      "name": "And  I have an id with value 1",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685722509629,
+      "stop": 1685722509632
+    },
+    {
+      "name": "When  I send a request",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685722509632,
+      "stop": 1685722509696
+    },
+    {
+      "name": "Then  I expect a valid code response",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1685722509696,
+      "stop": 1685722509706
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1685722509413,
+  "stop": 1685722509707
+}
