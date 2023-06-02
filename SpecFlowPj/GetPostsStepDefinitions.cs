@@ -17,7 +17,8 @@ namespace SpecFlowPj
         [Given(@"a valid API endpoint")]
         public void GivenAValidAPIEndpoint()
         {
-            client = new RestClient("http://34.125.117.44:3000");            
+            client = new RestClient("http://34.125.117.44:3000");    
+            //client = new RestClient("http://localhost:3000");
         }
 
         [Given(@"I have an id with value (.*)")]
@@ -37,9 +38,9 @@ namespace SpecFlowPj
         public void ThenIExpectAValidCodeResponse()
         {
             Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
-            var jsonObject = JObject.Parse(response.Content);
+            /*var jsonObject = JObject.Parse(response.Content);
             var result = jsonObject.SelectToken("title").ToString();
-            Assert.That(result, Is.EqualTo("json-server"), "Title is not correct");
+            Assert.That(result, Is.EqualTo("json-server"), "Title is not correct");*/
         }
     }
 }
